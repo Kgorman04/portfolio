@@ -1,0 +1,85 @@
+html{
+  height:100%;
+  background-image:url('https://images.pexels.com/photos/891683/pexels-photo-891683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size:cover;
+}
+
+#banner{
+  padding-top:20%;
+  font-family:'Titan One',cursive;
+  font-size:25px;
+  display:flex;
+  justify-content:center;
+  color:#7289DA;
+}
+
+#heading{
+ height:100%;
+ font-family:'Skranji', cursive;
+ display:flex;
+ justify-content:space-around;
+ color:#00D68F;
+}
+.navbar {
+  display:flex;
+  justify-content:space-around;
+  background-color:purple;
+  position:fixed;
+  top:0;
+  left: 0;
+  width: 100%; 
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #9370DB;
+  font-family:'Titan One',cursive;
+}
+
+
+.navbar a:hover {
+ color:purple;
+ background: #9370DB;
+}
+#about-content{
+  display:flex;
+  justify-content:space-around;
+  margin-top:22%;
+}
+
+img{
+  border-radius:50%;
+  border:solid 5px #9370DB;
+}
+
+.my-description{
+  background:blue;
+  margin:3%;
+  padding:4%;
+  font-family:'Titan One',cursive;
+}
+.project-container{
+  margin-top:20%;
+  display:flex;
+  width:100%;
+  height:100%;
+  justify-content:space-between;
+}
+.my-picture img {
+  transform: rotate(90deg);
+
+}
+span{
+  background: #9370DB;
+  width:30%;
+  height:60%;
+  margin:2%;
+  padding:2%;
+  font-family:'Titan One',cursive;
+  color:white;
+  align-items:center;
+}
